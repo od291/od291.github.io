@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Mes Certificats</h1>
+          </div>
+          <div class="project-container" style="cursor: pointer;">
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Sécurisation Réseau Informatique</h3>
+            </div>
+            <div class="project-box" onclick="openNewTab('assets/images/hackaton.jpg')" style="cursor: pointer;">
+                <i class="uil uil-award"></i>
+                <h3>Hackhunt interne</h3>
+            </div>
+            <div class="project-box" onclick="openNewTab('https://www.ratatype.com/u5452316/certificate/fr/')" style="cursor: pointer;">
+                <i class="uil uil-award"></i>
+               <h3>Vitesse de frappe</h3>
+            </div>
+            <script>
+                    function openNewTab(url) {
+            // Ouvre une nouvelle fenêtre ou un nouvel onglet avec l'URL spécifiée
+            var newWindow = window.open(url, '_blank');
+            newWindow.focus(); // Met le focus sur la nouvelle fenêtre/onglet
+        }
+            </script>
+          </div>
+       </section>
+
+
+       </section>
+
+    </main>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

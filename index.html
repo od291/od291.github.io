@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <img src="assets/images/favicon.png" alt="logo" width="40px">
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Présentation</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Compétences</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projets</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn">Télécharger CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>RAZAFINDRAVELO Tantelison Odilon</span>
+            </div>
+            <div class="featured-name">
+                <p><span class="typedText"></span></p>
+            </div>
+             
+            <div class="featured-text-info">
+                <p>
+                    Spécialisé dans la gestion et la sécurisation des infrastructures informatiques.
+                    Veille au fonctionnement du système informatique de l'entreprise.
+                </p>
+            </div> 
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Recruter Moi</button>
+                <button class="btn">Télécharger CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon">
+                    <a href="https://www.instagram.com/tantelison_odilon?igsh=OGFydnU3NnM5c2lt" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                </a></div>
+                <div class="icon">
+                    <a href="https://linkedin.com/in/tantelison-odilon-razafindravelo-6067a6281" target="_blank" >
+                        <i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100086634756010" target="_blank"><i class="uil uil-facebook"></i></a></div>
+                <div class="icon">
+                    <a href="https://github.com/od291/od291.github.io" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Mes compétences</h1>
+          </div>
+          <div class="row">
+            
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Développement</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>NodeJS</span>
+                        <span>Flutter</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Systèmes et réseaux</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Cluster de basculement de serveur</span>
+                        <span>Téléphonie sur IP</span>
+                        <span>VPN avec pfsense</span>
+                        <span>VMWare, Virtualbox</span>
+                        <span>Routage statique</span>
+                        <span>Routage dynamique</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Bureautique</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Word</span>
+                        <span>Excel</span>
+                        <span>PowerPoint</span>
+                        <span>GanttProject</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Base de données</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>Oracle Express</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projets</h1>
+          </div>
+          <div class="project-container" style="cursor: pointer;">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Projets finis</h3>
+            </div>
+            <div class="project-box" style="cursor: pointer;">
+                <i class="uil uil-sync"></i>
+                <h3>Projets en cours</h3>
+            </div>
+            <div class="project-box" onclick="cert()" style="cursor: pointer;">
+                <i class="uil uil-award"></i>
+               <h3>Certificats</h3>
+            </div>
+            <script>
+            function cert() {
+                window.location.href = 'assets/certification.html';
+            }
+            </script>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Communication</h1>
+            <span>Veuillez trouver ci-joint mes coordonnées !</span>
+          </div>
+          <div class="row1">
+             <div class="col1">
+                <div class="contact-info">
+                    <h2>Trouver Moi <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: rtantelisonodilon@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +261 34 729 66, +261 32 97 543 69</p>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Présentation</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Compétences</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projets</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon">
+                <a href="https://www.instagram.com/tantelison_odilon?igsh=OGFydnU3NnM5c2lt" target="_blank">
+                <i class="uil uil-instagram"></i>
+            </a></div>
+            <div class="icon">
+                <a href="https://linkedin.com/in/tantelison-odilon-razafindravelo-6067a6281" target="_blank" >
+                    <i class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100086634756010" target="_blank"><i class="uil uil-facebook"></i></a></div>
+            <div class="icon">
+                <a href="https://github.com/od291/od291.github.io" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy;2024 - <a href="#home" style="text-decoration: none;">Tantelison Odilon</a> - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
