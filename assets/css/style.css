@@ -30,7 +30,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+a{
+    text-decoration: none;
+}
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
 ::-webkit-scrollbar{
     width: 10px;
